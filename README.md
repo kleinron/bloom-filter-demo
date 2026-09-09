@@ -40,3 +40,16 @@ npm run test:visual:update   # refresh baselines
 ```
 
 Assertions: 20 bits in one row, sidebar on-stage, stage fits viewport after adds.
+
+
+## GitHub Pages
+
+Production `base` is `/bloom-filter-demo/` for
+https://kleinron.github.io/bloom-filter-demo/
+
+Local preview of the production build:
+
+```bash
+npm run build && npm run preview
+# open http://127.0.0.1:4173/bloom-filter-demo/
+```
